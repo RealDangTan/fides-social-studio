@@ -1,0 +1,44 @@
+{
+  "product": "Fides Scholars",
+  "kicker": "Learn · Grow · Belong",
+  "hook": "SMALL STEPS,\n*BIG* FUTURES",
+  "tagline": "More Than English, A Brighter Tomorrow.",
+  "features": [
+    {
+      "icon": "BookOpen",
+      "title": "Learn English",
+      "sub": "simple and friendly",
+      "hotspot": {
+        "x": 0.5,
+        "y": 0.3
+      }
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Build Confidence",
+      "sub": "speak without fear",
+      "hotspot": {
+        "x": 0.4,
+        "y": 0.6
+      }
+    },
+    {
+      "icon": "Users",
+      "title": "Grow Together",
+      "sub": "a brighter tomorrow",
+      "hotspot": null
+    }
+  ],
+  "offer": null,
+  "cta": {
+    "label": "Join Fides Scholars",
+    "url": "fides.edu.vn"
+  },
+  "images": [
+    {
+      "src": "fides-intro/product-1.png",
+      "aspect": 0.6925,
+      "transparent": true
+    }
+  ]
+}

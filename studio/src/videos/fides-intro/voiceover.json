@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "",
+    "voiceName": "",
+    "modelId": "eleven_v4",
+    "flowId": ""
+  },
+  "draftVoice": "Microsoft Zira Desktop",
+  "gain": 1.0,
+  "duckMusicDb": -10,
+  "duckSfxDb": -4,
+  "lines": [
+    { "id": "hook", "cue": "hook-in", "offset": 0.1, "text": "[curious] The hook, said out loud?" },
+    { "id": "reveal", "cue": "name-in", "offset": 0, "text": "[warmly] Product name. What it does for you." },
+    { "id": "features", "cue": "feat-1", "offset": 0, "text": "[excited] Benefit one. Benefit two. Benefit three." },
+    { "id": "cta", "cue": "cta-in", "offset": 0, "text": "[excited] Get yours today." }
+  ]
+}

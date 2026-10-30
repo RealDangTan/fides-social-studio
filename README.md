@@ -14,6 +14,6 @@ In Claude Code, attach or point to product images and ask for a product video, e
 cd studio; npm install
 New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\product-motion-video" -Target "<repo>\skill"
 ```
-Rendering uses the installed Brave. Set `REMOTION_BROWSER_EXECUTABLE` if it lives somewhere other than `C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe`. The skill's studio path in `skill/SKILL.md` is absolute, so update it if you move the repo.
+Rendering uses the local Chromium at /opt/pw-browsers/chromium (set REMOTION_BROWSER_EXECUTABLE to override).
 
 Remotion's own agent skills were installed with `npx remotion skills add` into `studio/.agents/skills` (linked from `studio/.claude/skills`).

@@ -3,6 +3,7 @@ import { AbsoluteFill, Html5Audio, getStaticFiles, staticFile } from "remotion";
 import { Background } from "../../components/Background";
 import { Headline, Kicker } from "../../components/Headline";
 import { ProductShot } from "../../components/ProductShot";
+import { FidesLogo } from "../../components/Fides";
 import { Badge, CTA, Callout, Cursor, type IconName } from "../../components/UI";
 import type { Brand } from "../../lib/brand";
 import { SPRINGS, enterExit, mix, springAt } from "../../lib/motion";
@@ -76,6 +77,7 @@ const Scene: React.FC = () => {
   return (
     <AbsoluteFill>
       <Background energy={bloom} />
+      <FidesLogo enterAt={at("hook-in")} />
 
       {/* Act 1: hook */}
       <Kicker text={content.kicker} enterAt={at("hook-in")} exitAt={at("hook-out")} x={0.5} y={portrait ? 0.4 : 0.36} />

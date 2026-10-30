@@ -1,6 +1,6 @@
 ---
 name: product-motion-video
-description: Turn product images into a 15-second marketing/sales motion video (16:9 master + 9:16 vertical cut, synced soundtrack with an optional ElevenLabs Music track and voice-over via the full ElevenLabs connector), built as deterministic Remotion code, rendered with the local Brave, and checked by looking at its own frames. Use when the user gives product photos or screenshots and asks for a product video, promo, ad, launch reel, product demo, social video, motion graphics, "video quảng cáo sản phẩm", or a Remotion video to market or sell something. Not for editing existing footage or AI-generated (diffusion) video.
+description: Turn product images into a 15-second marketing/sales motion video (16:9 master + 9:16 vertical cut, synced soundtrack with an optional ElevenLabs Music track and voice-over via the full ElevenLabs connector), built as deterministic Remotion code, rendered with the local Brave, and checked by looking at its own frames. Use when the user gives product photos or screenshots and asks for a product video, promo, ad, launch reel, product demo, social video, motion graphics, "video quảng cáo sản phẩm", or a Remotion video to market or sell something. Every video uses the Fides Scholars brand (see the studio `CLAUDE.md`, section "Fides Scholars branding"). Not for editing existing footage or AI-generated (diffusion) video.
 ---
 
 # Product motion video
@@ -28,7 +28,7 @@ npm run new -- <slug> --product "Product Name" "<img1>" "<img2>"
 This creates `projects/<slug>/` (sources / drafts / critique / published, brief.md, storyboard.xml, assets.json), `public/<slug>/`, and `src/videos/<slug>/` (copied from `_template`). It registers `<slug>-16x9` and `<slug>-9x16` and synthesizes a first `audio.wav`.
 
 ### 3. Design tokens from the images (anti-contagion)
-Look at every image with Read, and read `projects/<slug>/assets.json` (size, aspect, cut-out or opaque, backdrop color, palette). Write `src/videos/<slug>/brand.json` from what you see, never from adjectives. Rules are in [references/motion-rules.md](references/motion-rules.md#tokens). If the user supplied a brand guide, website screenshot or app UI, that overrides the photo palette.
+Colours and fonts are always the Fides brand already in `brand.json` (do not derive them from images). Look at every image with Read, and read `projects/<slug>/assets.json` (size, aspect, cut-out or opaque, backdrop color, palette). Write `src/videos/<slug>/brand.json` from what you see, never from adjectives. Rules are in [references/motion-rules.md](references/motion-rules.md#tokens). If the user supplied a brand guide, website screenshot or app UI, that overrides the photo palette.
 
 ### 4. Brief + storyboard: the approval gate
 - Fill `projects/<slug>/brief.md`.

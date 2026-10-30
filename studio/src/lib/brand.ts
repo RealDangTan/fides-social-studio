@@ -34,6 +34,8 @@ export type Brand = {
 };
 
 export type FontKey =
+  | "BeVietnamPro"
+  | "KoHo"
   | "Inter"
   | "InterTight"
   | "Manrope"

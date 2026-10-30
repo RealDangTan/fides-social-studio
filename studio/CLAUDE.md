@@ -10,7 +10,16 @@ Remotion studio for product-marketing videos. The `product-motion-video` skill d
 - Colours, fonts and radii live in `brand.json`, taken from the product images and supplied brand material. No hard-coded hex values in components.
 - Layout in canvas fractions and `u` units so one component tree serves 16:9 and 9:16. Check both.
 - Text contrast at least 4.5:1 against what sits behind it. Nothing within 5% of any canvas edge.
-- Rendering uses the installed Brave (`remotion.config.ts`, `scripts/lib.mjs`). Never run `npx remotion browser ensure` or download Chrome Headless Shell.
+- Rendering uses the local Chromium at `/opt/pw-browsers/chromium` (`remotion.config.ts`, `scripts/lib.mjs`; override with `REMOTION_BROWSER_EXECUTABLE`). Never run `npx remotion browser ensure` or download Chrome Headless Shell.
+
+## Fides Scholars branding (applies to EVERY video)
+Source of truth: the Fides design system artifact (https://claude.ai/artifact/Pjwg3tCBHhbZu4KthfhQWM). `src/videos/_template/brand.json` already holds the Fides tokens; never replace it with colours taken from product photos.
+- Colours: purple `#4f2681` field (bg), yellow `#efa935` highlight (accent, max one word or one tag; never as text on white), `#1f1f28` dark panels/cards, white text, lavender `#e7e1f8` muted text. Roughly 60% surface, 30% purple, 10% yellow.
+- Fonts: Be Vietnam Pro for everything (`BeVietnamPro`, local files in `public/fides/fonts`, Vietnamese-complete). KoHo italic (`KoHo`) only for the slogan "Small Steps, Big Futures".
+- Copy: hero headline UPPERCASE, titles Title Case, body sentence case, no emoji. Tagline "More Than English, A Brighter Tomorrow." / strap "Learn · Grow · Belong · A Brighter You", used verbatim.
+- Logo: `<FidesLogo />` (white, top) from `src/components/Fides.tsx` on every video; never recolour or stretch. Mascot: one `<Fidi pose=... />` per layout, pose matched to the message (great=success, thinking=question, idea=tip, teach=lesson, study=homework, cool, surprise). Pattern: `<PatternCorner />` on one corner only, never behind text.
+- Assets live in `public/fides/{logos,mascot,pattern,fonts}`. Note: the design system's SVG logos/pattern lost colour, so the PNGs are used.
+- Short-form (TikTok/Reels/Shorts/FB): design for 9:16 first, keep text inside the safe area (nothing within 5% of the edges, and keep the bottom ~15% and right ~12% free of key text for platform UI).
 
 ## Directories
 - `projects/<slug>/sources/` client images as received. Never edit.

@@ -1,0 +1,49 @@
+[
+  {
+    "src": "fides-intro/product-1.png",
+    "original": "main.png",
+    "width": 518,
+    "height": 748,
+    "aspect": 0.6925,
+    "transparent": true,
+    "backdrop": null,
+    "palette": [
+      {
+        "hex": "#4e2b90",
+        "share": 0.374,
+        "luminance": 0.227,
+        "saturation": 0.702
+      },
+      {
+        "hex": "#5840a5",
+        "share": 0.193,
+        "luminance": 0.299,
+        "saturation": 0.614
+      },
+      {
+        "hex": "#fcfbfa",
+        "share": 0.178,
+        "luminance": 0.986,
+        "saturation": 0.008
+      },
+      {
+        "hex": "#8758af",
+        "share": 0.125,
+        "luminance": 0.408,
+        "saturation": 0.497
+      },
+      {
+        "hex": "#dcad54",
+        "share": 0.067,
+        "luminance": 0.694,
+        "saturation": 0.617
+      },
+      {
+        "hex": "#c182d6",
+        "share": 0.063,
+        "luminance": 0.586,
+        "saturation": 0.393
+      }
+    ]
+  }
+]

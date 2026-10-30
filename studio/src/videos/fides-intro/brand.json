@@ -1,0 +1,16 @@
+{
+  "name": "Fides Scholars",
+  "colors": {
+    "bg": "#4f2681",
+    "bgAlt": "#1f1f28",
+    "surface": "#1f1f28",
+    "text": "#ffffff",
+    "muted": "#e7e1f8",
+    "accent": "#efa935",
+    "onAccent": "#4f2681",
+    "accent2": "#e7e1f8"
+  },
+  "font": { "display": "BeVietnamPro", "body": "BeVietnamPro" },
+  "radius": { "card": 32, "pill": 999 },
+  "mode": "dark"
+}

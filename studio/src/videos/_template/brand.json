@@ -1,16 +1,16 @@
 {
-  "name": "__PRODUCT__",
+  "name": "Fides Scholars",
   "colors": {
-    "bg": "#0b0d12",
-    "bgAlt": "#1a2233",
-    "surface": "#161b26",
-    "text": "#f4f6fb",
-    "muted": "#9aa3b5",
-    "accent": "#5b8cff",
-    "onAccent": "#ffffff",
-    "accent2": "#ffd166"
+    "bg": "#4f2681",
+    "bgAlt": "#1f1f28",
+    "surface": "#1f1f28",
+    "text": "#ffffff",
+    "muted": "#e7e1f8",
+    "accent": "#efa935",
+    "onAccent": "#4f2681",
+    "accent2": "#e7e1f8"
   },
-  "font": { "display": "InterTight", "body": "Inter" },
-  "radius": { "card": 36, "pill": 999 },
+  "font": { "display": "BeVietnamPro", "body": "BeVietnamPro" },
+  "radius": { "card": 32, "pill": 999 },
   "mode": "dark"
 }
