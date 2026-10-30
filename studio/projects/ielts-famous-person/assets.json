@@ -1,0 +1,49 @@
+[
+  {
+    "src": "ielts-famous-person/product-1.png",
+    "original": "icon-color.png",
+    "width": 1076,
+    "height": 1537,
+    "aspect": 0.7001,
+    "transparent": true,
+    "backdrop": null,
+    "palette": [
+      {
+        "hex": "#4f1e85",
+        "share": 0.546,
+        "luminance": 0.188,
+        "saturation": 0.774
+      },
+      {
+        "hex": "#ffa500",
+        "share": 0.447,
+        "luminance": 0.675,
+        "saturation": 1
+      },
+      {
+        "hex": "#dc8b1a",
+        "share": 0.005,
+        "luminance": 0.581,
+        "saturation": 0.882
+      },
+      {
+        "hex": "#fea500",
+        "share": 0.001,
+        "luminance": 0.673,
+        "saturation": 1
+      },
+      {
+        "hex": "#ffa500",
+        "share": 0,
+        "luminance": 0.675,
+        "saturation": 1
+      },
+      {
+        "hex": "#4f1e85",
+        "share": 0,
+        "luminance": 0.188,
+        "saturation": 0.774
+      }
+    ]
+  }
+]

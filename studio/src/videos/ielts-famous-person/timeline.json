@@ -1,0 +1,16 @@
+{
+  "fps": 30,
+  "bpm": 120,
+  "beats": 280,
+  "music": {
+    "style": "none",
+    "key": "A",
+    "gain": 0
+  },
+  "cues": {
+    "end": {
+      "beat": 280,
+      "sfx": "none"
+    }
+  }
+}

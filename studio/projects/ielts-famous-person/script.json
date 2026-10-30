@@ -1,0 +1,74 @@
+{
+  "title": "Describe a famous person you would like to meet",
+  "kicker": "IELTS Speaking · Part 2",
+  "topic": "Topic 1",
+  "voiceId": "EXAVITQu4vr4xnSDxMaL",
+  "sections": [
+    {
+      "id": "p0",
+      "heading": null,
+      "text": "Topic 1: Describe a famous person you would like to meet.",
+      "vocab": []
+    },
+    {
+      "id": "p1",
+      "heading": "Who is she?",
+      "text": "If I had a chance to meet any influential person, it would undoubtedly be Vivian Wilson, who is an American model. She is a public figure who has remained resilient despite conflicts with her father, Elon Musk. She has also confidently embraced her transgender identity.",
+      "vocab": [
+        { "en": "public figure", "vi": "người của công chúng", "key": "public" },
+        { "en": "remain resilient", "vi": "kiên cường, bền bỉ trước khó khăn", "key": "remained" },
+        { "en": "embrace one's gender identity", "vi": "chấp nhận và tự hào với bản dạng giới", "key": "embraced" },
+        { "en": "transgender identity", "vi": "bản dạng giới chuyển giới", "key": "transgender" }
+      ]
+    },
+    {
+      "id": "p2",
+      "heading": "How I knew her",
+      "text": "When I was doomscrolling my Facebook newsfeed, I stumbled upon her post criticising the biography of Elon Musk. In the book, she is portrayed as rebellious and difficult, and as someone who frequently made rash decisions in defiance of her father, including her decision to transition. To be honest, I was so curious about Vivian Wilson after reading the post that I made up my mind to learn more about her personal life and public image. That said, the more I learnt about her online, the more I came to realise that she wasn't the person the biography made her out to be.",
+      "vocab": [
+        { "en": "doomscroll", "vi": "liên tục lướt mạng xã hội một cách vô thức", "key": "doomscrolling" },
+        { "en": "stumble upon something", "vi": "tình cờ bắt gặp điều gì", "key": "stumbled" },
+        { "en": "make rash decisions in defiance of somebody", "vi": "đưa ra quyết định bốc đồng để chống đối ai đó", "key": "rash" },
+        { "en": "be curious about something", "vi": "tò mò về điều gì", "key": "curious" },
+        { "en": "make up one's mind", "vi": "quyết định, hạ quyết tâm", "key": "up" },
+        { "en": "make somebody out to be", "vi": "miêu tả ai đó có vẻ là kiểu người nào", "key": "out" }
+      ]
+    },
+    {
+      "id": "p3",
+      "heading": "Why she inspires me",
+      "text": "What interests me most is not so much her family turmoil as her efforts and contributions to society, which are what truly make her stand out. She often speaks up about human rights and equal access to education and healthcare. Those ideas run directly counter to the values and beliefs held by many influential figures across the globe. I find her bravery and willingness to challenge such views genuinely inspiring.",
+      "vocab": [
+        { "en": "family turmoil", "vi": "biến động, rối ren trong gia đình", "key": "turmoil" },
+        { "en": "make somebody stand out", "vi": "khiến ai đó nổi bật", "key": "stand" },
+        { "en": "speak up about something", "vi": "lên tiếng về vấn đề gì", "key": "speaks" },
+        { "en": "human rights", "vi": "quyền con người, nhân quyền", "key": "human" },
+        { "en": "equal access to education and healthcare", "vi": "quyền tiếp cận giáo dục và y tế bình đẳng", "key": "equal" },
+        { "en": "run directly counter to something", "vi": "hoàn toàn trái ngược với điều gì", "key": "counter" }
+      ]
+    },
+    {
+      "id": "p4",
+      "heading": "How I would meet her",
+      "text": "I have always wanted to meet her in person, perhaps in a small and intimate interview, like the ones you may see on talk shows, to tell her how deeply I admire her for her courage and unwavering strength in the face of adversity. I would be curious to know what kept her going during the period when she struggled with gender dysphoria and her parents’ divorce. It must have been challenging for her.",
+      "vocab": [
+        { "en": "meet somebody in person", "vi": "gặp trực tiếp ai đó", "key": "person" },
+        { "en": "courage and unwavering strength in the face of adversity", "vi": "can đảm, mạnh mẽ không lay chuyển trước nghịch cảnh", "key": "courage" },
+        { "en": "struggle with something", "vi": "gặp khó khăn với điều gì", "key": "struggled" },
+        { "en": "gender dysphoria", "vi": "rối loạn bản dạng giới", "key": "dysphoria" },
+        { "en": "divorce (n)", "vi": "ly hôn", "key": "divorce" }
+      ]
+    },
+    {
+      "id": "p5",
+      "heading": "Why it matters to me",
+      "text": "As someone who is exploring sociology and gender studies, I think a chance to sit down and talk with her would be valuable because she has firsthand experience of many of the challenges faced by transgender people.",
+      "vocab": [
+        { "en": "sociology and gender studies", "vi": "xã hội học và nghiên cứu về giới", "key": "sociology" },
+        { "en": "a chance to sit down and talk with somebody", "vi": "cơ hội được trò chuyện với ai", "key": "sit" },
+        { "en": "firsthand experience", "vi": "trải nghiệm trực tiếp từ chính bản thân", "key": "firsthand" },
+        { "en": "transgender people", "vi": "người chuyển giới", "key": "transgender" }
+      ]
+    }
+  ]
+}
