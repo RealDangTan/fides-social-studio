@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "Na15FlRRkMEDtEW4nVVP",
+    "voiceName": "Thanh Ngọc - Warm & Trusted Expert",
+    "modelId": "eleven_v4",
+    "flowId": "n1xyBlVy4IqxNGcIsFuY"
+  },
+  "draftVoice": "Microsoft Zira Desktop",
+  "gain": 1,
+  "duckMusicDb": -12,
+  "duckSfxDb": -5,
+  "lines": [
+    {
+      "id": "hook",
+      "cue": "pan-in",
+      "offset": 0.35,
+      "text": "[curious] Bạn thích món chiên giòn, nhưng lại ngại phải dùng quá nhiều dầu?",
+      "duration": 3.663,
+      "take": "final",
+      "generationId": "MunHcFKzigswOrIm905O"
+    },
+    {
+      "id": "tech",
+      "cue": "cut-in",
+      "offset": 0.4,
+      "text": "[warmly] Nồi chiên không dầu sử dụng khí nóng lưu thông để làm chín thực phẩm. Với nhiều món ăn, bạn có thể giảm đáng kể lượng dầu thêm vào so với cách chiên ngập dầu.",
+      "duration": 9.446,
+      "take": "final",
+      "generationId": "lRyA9eU4ISd2JK2d7tPA"
+    },
+    {
+      "id": "benefits",
+      "cue": "ben-1",
+      "offset": 0.4,
+      "text": "[warmly] Bạn vẫn có thể thưởng thức những món ăn hấp dẫn, đồng thời giảm lượng dầu sử dụng và đơn giản hóa việc nấu nướng hằng ngày.",
+      "duration": 7.176,
+      "take": "final",
+      "generationId": "9GCqlhyAaxvjUWqqZKwx"
+    },
+    {
+      "id": "choose",
+      "cue": "choose-in",
+      "offset": 0.4,
+      "text": "[warmly] Khi chọn mua, hãy chú ý đến dung tích phù hợp với gia đình, công suất, khả năng vệ sinh và những chế độ nấu bạn thực sự cần.",
+      "duration": 7.605,
+      "take": "final",
+      "generationId": "gFkkcM86dqBtTuGPyjr0"
+    },
+    {
+      "id": "cta",
+      "cue": "brand-in",
+      "offset": 0.4,
+      "text": "[warmly] Đang tìm nồi chiên không dầu phù hợp? Khám phá các lựa chọn tại Điện máy ABC và chọn chiếc nồi phù hợp với nhu cầu gia đình bạn.",
+      "duration": 7.277,
+      "take": "final",
+      "generationId": "tJ3L35zVk9uaAh8RN49Z"
+    }
+  ]
+}

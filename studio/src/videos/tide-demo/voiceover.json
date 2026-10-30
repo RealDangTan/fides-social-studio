@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "vgY2u4uMeJ27m87AxkPi",
+    "voiceName": "Daria - The Upbeat American Gal",
+    "modelId": "eleven_v4",
+    "flowId": "co9fu73cimG3wr6Bx8N4"
+  },
+  "draftVoice": "Microsoft Zira Desktop",
+  "gain": 1,
+  "duckMusicDb": -10,
+  "duckSfxDb": -4,
+  "lines": [
+    {
+      "id": "hook",
+      "cue": "hook-in",
+      "offset": 0.1,
+      "text": "[curious] Forgot to drink water again?",
+      "duration": 1.547,
+      "take": "final",
+      "generationId": "cErVsyo9CfLUf1tFSdJU"
+    },
+    {
+      "id": "reveal",
+      "cue": "name-in",
+      "offset": 0,
+      "text": "[warmly] Meet Tide, the bottle that reminds you.",
+      "duration": 2.801,
+      "take": "final",
+      "generationId": "aaLnK0bw5bF2c77JAEoz"
+    },
+    {
+      "id": "features",
+      "cue": "feat-1",
+      "offset": 0,
+      "text": "[excited] Glow reminders. Ice cold all day. Synced to your phone.",
+      "duration": 4.52,
+      "take": "final",
+      "generationId": "oz2mXFB37vWrSd2pZn5W"
+    },
+    {
+      "id": "cta",
+      "cue": "cta-in",
+      "offset": 0,
+      "text": "[excited] Get yours today.",
+      "duration": 1.571,
+      "take": "final",
+      "generationId": "oJNqP78t2pUmdVFwhtt4"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "elevenlabs",
+  "modelId": "eleven_music_v2_5",
+  "flowId": "",
+  "nodeId": "",
+  "generationId": "",
+  "prompt": "",
+  "startBeat": 0,
+  "fadeOut": 1.0
+}

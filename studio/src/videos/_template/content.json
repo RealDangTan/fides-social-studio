@@ -1,0 +1,14 @@
+{
+  "product": "__PRODUCT__",
+  "kicker": "Introducing",
+  "hook": "The hook line,\n*one idea* only.",
+  "tagline": "One sentence on what it does for the buyer.",
+  "features": [
+    { "icon": "Zap", "title": "Benefit one", "sub": "proof in five words", "hotspot": { "x": 0.5, "y": 0.3 } },
+    { "icon": "ShieldCheck", "title": "Benefit two", "sub": "proof in five words", "hotspot": { "x": 0.4, "y": 0.6 } },
+    { "icon": "Sparkles", "title": "Benefit three", "sub": "proof in five words", "hotspot": null }
+  ],
+  "offer": { "text": "-20%", "sub": "launch week" },
+  "cta": { "label": "Shop now", "url": "example.com" },
+  "images": []
+}

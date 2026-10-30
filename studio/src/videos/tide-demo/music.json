@@ -1,0 +1,22 @@
+{
+  "provider": "elevenlabs",
+  "modelId": "eleven_music_v2_5",
+  "flowId": "co9fu73cimG3wr6Bx8N4",
+  "nodeId": "fID8gKkmmmTbXaRvs3QU",
+  "generationId": "kGrvlh9o7rkgPt43ZqIu",
+  "prompt": "Bright, fresh electronic pop instrumental at exactly 120 BPM in A minor: crisp four-on-the-floor kick, tight claps, plucky marimba-like synth arpeggios, warm sub bass and airy pads, clean modern commercial production. Soft filtered intro with only pads and a light arpeggio for the first 3 seconds, the full beat hits at 3 seconds, steady upbeat energy through the middle, and it ends on a clean final hit at 15 seconds.",
+  "startBeat": 0,
+  "fadeOut": 1,
+  "raw": "projects/tide-demo/music-raw/track.mp3",
+  "analysis": {
+    "rawBpm": 119.96,
+    "stretch": 1.000333,
+    "downbeatSec": 0.0139,
+    "downbeatForced": false,
+    "trimSec": 0.0139,
+    "outBpm": 119.97,
+    "gridErrorMs": 1.5,
+    "lock": 7.032,
+    "coversSec": 15
+  }
+}

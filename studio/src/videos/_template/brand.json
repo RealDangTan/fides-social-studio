@@ -1,0 +1,16 @@
+{
+  "name": "__PRODUCT__",
+  "colors": {
+    "bg": "#0b0d12",
+    "bgAlt": "#1a2233",
+    "surface": "#161b26",
+    "text": "#f4f6fb",
+    "muted": "#9aa3b5",
+    "accent": "#5b8cff",
+    "onAccent": "#ffffff",
+    "accent2": "#ffd166"
+  },
+  "font": { "display": "InterTight", "body": "Inter" },
+  "radius": { "card": 36, "pill": 999 },
+  "mode": "dark"
+}

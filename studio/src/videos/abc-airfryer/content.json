@@ -1,0 +1,37 @@
+{
+  "product": "Nồi chiên không dầu",
+  "hook": {
+    "kicker": "Cách chiên truyền thống",
+    "question": "Muốn ăn món chiên ngon,\ncó nhất thiết phải\ndùng *nhiều* *dầu*?"
+  },
+  "tech": {
+    "kicker": "Bên trong nồi chiên không dầu",
+    "title": "*Khí* *nóng* lưu thông\nquanh thực phẩm",
+    "deep": { "title": "Chiên ngập dầu", "sub": "Thực phẩm ngập trong dầu nóng" },
+    "air": { "title": "Nồi chiên không dầu", "sub": "Ít hoặc không cần thêm dầu*" },
+    "note": "*Tùy món ăn và công thức"
+  },
+  "benefits": [
+    { "kicker": "01 / 03", "title": "Ít dầu hơn" },
+    { "kicker": "02 / 03", "title": "Tiện lợi hơn" },
+    { "kicker": "03 / 03", "title": "Thêm lựa chọn\ncho bữa ăn" }
+  ],
+  "choose": {
+    "title": "Chọn nồi theo\n*nhu* *cầu* *thực* *tế*",
+    "items": [
+      { "icon": "CookingPot", "label": "Dung tích", "cue": "icon-1" },
+      { "icon": "Zap", "label": "Công suất", "cue": "icon-2" },
+      { "icon": "Sparkles", "label": "Vệ sinh", "cue": "icon-3" },
+      { "icon": "Thermometer", "label": "Nhiệt độ,\nchế độ nấu", "cue": "icon-4" }
+    ]
+  },
+  "brand": {
+    "slogan": "Chọn đúng nhu cầu.\n*Mua* *sắm* *thông* *minh.*",
+    "cta": "Khám phá nồi chiên không dầu",
+    "ctaPlace": "tại Điện máy ABC"
+  },
+  "images": {
+    "product": { "src": "abc-airfryer/product-1-cut.png", "aspect": 1, "bbox": { "x0": 0.2, "x1": 0.8, "y0": 0.1375, "y1": 0.8775 } },
+    "logo": { "src": "abc-airfryer/product-2.png", "aspect": 5 }
+  }
+}

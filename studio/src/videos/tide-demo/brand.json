@@ -1,0 +1,16 @@
+{
+  "name": "Tide Smart Bottle",
+  "colors": {
+    "bg": "#06110f",
+    "bgAlt": "#0d2b25",
+    "surface": "#0f201c",
+    "text": "#effcf8",
+    "muted": "#8fb5aa",
+    "accent": "#43d6ae",
+    "onAccent": "#03140f",
+    "accent2": "#f5e663"
+  },
+  "font": { "display": "BricolageGrotesque", "body": "Inter" },
+  "radius": { "card": 36, "pill": 999 },
+  "mode": "dark"
+}

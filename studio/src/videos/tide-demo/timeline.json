@@ -1,0 +1,23 @@
+{
+  "fps": 60,
+  "bpm": 120,
+  "beats": 30,
+  "music": { "style": "track", "key": "A", "gain": 0.55 },
+  "cues": {
+    "hook-in":    { "beat": 0.5,  "sfx": "whoosh",     "note": "kicker + hook headline" },
+    "hook-out":   { "beat": 5,    "sfx": "swoosh-rev", "note": "hook clears for the reveal" },
+    "hero-in":    { "beat": 6,    "sfx": "drop",       "note": "product springs in on the downbeat" },
+    "name-in":    { "beat": 7,    "sfx": "tick" },
+    "hero-shine": { "beat": 9,    "sfx": "shimmer" },
+    "feat-move":  { "beat": 13,   "sfx": "whoosh",     "note": "product glides aside" },
+    "feat-1":     { "beat": 14,   "sfx": "pop" },
+    "feat-2":     { "beat": 16,   "sfx": "pop" },
+    "feat-3":     { "beat": 18,   "sfx": "pop" },
+    "close-move": { "beat": 23,   "sfx": "whoosh",     "note": "callouts clear, product recentres" },
+    "offer-in":   { "beat": 24,   "sfx": "pop", "gain": 1.1 },
+    "cta-in":     { "beat": 24.5, "sfx": "tick" },
+    "cursor-in":  { "beat": 25.5, "sfx": "none" },
+    "cta-click":  { "beat": 27,   "sfx": "click",      "note": "click lands on the bar downbeat" },
+    "end":        { "beat": 30,   "sfx": "none" }
+  }
+}

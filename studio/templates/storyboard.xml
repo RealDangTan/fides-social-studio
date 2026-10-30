@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  State spec for __SLUG__. One <beat> per act, one <state> per element per moment.
+  Times are in beats on the 120 BPM grid (2 beats = 1 s). Every cue id here must
+  exist in src/videos/__SLUG__/timeline.json, and vice versa.
+  This file is the gate: no Video.tsx changes until the user approves it.
+-->
+<storyboard slug="__SLUG__" product="__PRODUCT__" bpm="120" beats="30" fps="60" approved="false">
+  <beat id="hook" from="0" to="6" goal="Stop the scroll: one problem or promise.">
+    <cue id="hook-in" beat="0.5" sfx="whoosh"/>
+    <state el="kicker" at="hook-in" text="Introducing" pos="center, 36%"/>
+    <state el="headline" at="hook-in" text="..." pos="center" size="120u" enter="word-mask spring:card"/>
+    <cue id="hook-out" beat="5" sfx="swoosh-rev"/>
+  </beat>
+
+  <beat id="reveal" from="6" to="13" goal="Show the product big, name it.">
+    <cue id="hero-in" beat="6" sfx="drop"/>
+    <state el="product-1" at="hero-in" pos="center" size="720u" enter="rise 260u, rotate -8deg, spring:hero" float="true"/>
+    <cue id="name-in" beat="7" sfx="tick"/>
+    <state el="name" at="name-in" text="__PRODUCT__" pos="center, 86%"/>
+    <cue id="hero-shine" beat="9" sfx="shimmer"/>
+  </beat>
+
+  <beat id="features" from="13" to="23" goal="Three benefits, one per two beats.">
+    <cue id="feat-move" beat="13" sfx="whoosh"/>
+    <state el="product-1" at="feat-move" pos="30%, 52%" size="660u" move="spring:glide"/>
+    <cue id="feat-1" beat="14" sfx="pop"/>
+    <state el="callout-1" at="feat-1" icon="Zap" title="..." sub="..." hotspot="0.5,0.3"/>
+    <cue id="feat-2" beat="16" sfx="pop"/>
+    <cue id="feat-3" beat="18" sfx="pop"/>
+  </beat>
+
+  <beat id="close" from="23" to="30" goal="Offer and one clear action.">
+    <cue id="close-move" beat="23" sfx="whoosh"/>
+    <cue id="offer-in" beat="24" sfx="pop"/>
+    <cue id="cta-in" beat="24.5" sfx="tick"/>
+    <cue id="cursor-in" beat="25.5"/>
+    <cue id="cta-click" beat="27" sfx="click"/>
+    <state el="cta" at="cta-in" label="Shop now" url="example.com" pos="center, 82%"/>
+  </beat>
+</storyboard>

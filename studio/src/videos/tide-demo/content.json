@@ -1,0 +1,50 @@
+{
+  "product": "Tide Smart Bottle",
+  "kicker": "Hydration, handled",
+  "hook": "You forgot to drink water *again.*",
+  "tagline": "Glows when it's time to sip. Tracks every ounce.",
+  "features": [
+    {
+      "icon": "Smartphone",
+      "title": "Syncs with your phone",
+      "sub": "iOS and Android",
+      "hotspot": {
+        "x": 0.5,
+        "y": 0.1
+      }
+    },
+    {
+      "icon": "Thermometer",
+      "title": "Cold for 24 hours",
+      "sub": "double-wall steel",
+      "hotspot": {
+        "x": 0.5,
+        "y": 0.45
+      }
+    },
+    {
+      "icon": "BellRing",
+      "title": "Gentle sip reminders",
+      "sub": "a soft glow, never a buzz",
+      "hotspot": {
+        "x": 0.5,
+        "y": 0.75
+      }
+    }
+  ],
+  "offer": {
+    "text": "-25%",
+    "sub": "launch week"
+  },
+  "cta": {
+    "label": "Get yours",
+    "url": "tidebottle.com"
+  },
+  "images": [
+    {
+      "src": "tide-demo/product-1.png",
+      "aspect": 0.5,
+      "transparent": true
+    }
+  ]
+}
