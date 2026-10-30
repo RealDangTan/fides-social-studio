@@ -1,6 +1,6 @@
 // Narrated lesson pipeline: script.json -> ElevenLabs voice (with word timestamps) + sound effects
 // + music bed -> karaoke.json (word timings the video reads) + audio.wav.
-// Usage: npm run narrate -- <slug> [--voice <voiceId>] [--speed 1.1] [--force] [--preview]
+// Usage: npm run narrate -- <slug> [--speed 1.1] [--force] [--preview]
 //   --preview  no API calls: estimated word timings and no audio (for layout checks only).
 // The API key is read from ELEVENLABS_API_KEY (or ELEVEN_API_KEY / XI_API_KEY). Takes are cached in
 // projects/<slug>/vo-raw so re-running only pays for sections whose text changed.
@@ -16,7 +16,6 @@ assertSlug(slug);
 const p = paths(slug);
 const script = readJson(path.join(p.project, "script.json"));
 const speed = Number(args.speed ?? 1.1);
-const voiceId = typeof args.voice === "string" ? args.voice : script.voiceId;
 const preview = Boolean(args.preview);
 const KEY = process.env.ELEVENLABS_API_KEY || process.env.ELEVEN_API_KEY || process.env.XI_API_KEY;
 if (!preview && !KEY) fail("no ElevenLabs key in the environment (ELEVENLABS_API_KEY). Use --preview for estimated timings.");
@@ -57,6 +56,7 @@ for (const s of script.sections) {
     takes[s.id].dur = t;
     continue;
   }
+  const voiceId = script.voices[s.voice].id;
   const hash = crypto.createHash("sha1").update(JSON.stringify([s.text, voiceId, speed])).digest("hex").slice(0, 10);
   const base = path.join(rawDir, `${s.id}-${hash}`);
   if (args.force || !fs.existsSync(`${base}.json`)) {

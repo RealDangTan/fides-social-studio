@@ -169,7 +169,7 @@ const Scene: React.FC = () => {
   return (
     <AbsoluteFill style={{ fontFamily: body }}>
       <Background energy={energy} />
-      <FidesLogo enterAt={0.1} y={0.065} size={74} />
+      <FidesLogo enterAt={0.1} x={0.05 + 136 / 1080} y={0.065} size={74} />
       <Intro s={intro} />
       {K.sections.slice(1).map((s) => (
         <Lesson key={s.id} s={s} />
