@@ -19,7 +19,11 @@ type Vocab = { en: string; vi: string; at: number; t: number };
 type Section = { id: string; heading: string | null; start: number; voiceStart: number; end: number; exit: number; words: Word[]; vocab: Vocab[] };
 const K = karaokeJson as unknown as { title: string; kicker: string; topic: string; total: number; outroAt: number; sections: Section[] };
 
-const FIDI_POSE: Record<string, FidiPose> = { p1: "main", p2: "thinking", p3: "idea", p4: "teach", p5: "study" };
+// Pose follows the meaning of the section: who is she? (question), found her post by chance (surprise),
+// what inspires me (idea), an interview (suit and folder), research and studies (books).
+const FIDI_POSE: Record<string, FidiPose> = { p1: "thinking", p2: "surprise", p3: "idea", p4: "learners", p5: "study" };
+// Natural aspect (w/h) of each pose, to fit it in the same box beside the heading.
+const POSE_ASPECT: Record<string, number> = { thinking: 1865 / 1320, surprise: 1330 / 1926, idea: 1523 / 2016, learners: 1296 / 1858, study: 2175 / 1614 };
 const CUE_CARD = ["Who he/she is", "How you knew him/her", "How/where you would like to meet", "Why you would like to meet"];
 
 /** Index of the word being spoken at time t (-1 before the first word). */
@@ -118,7 +122,7 @@ const Lesson: React.FC<{ s: Section }> = ({ s }) => {
   return (
     <AbsoluteFill style={{ opacity: clamp(p * 2) }}>
       <div style={{ position: "absolute", left: 0.05 * width, width: 0.9 * width, top: 0.125 * height, display: "flex", flexDirection: "column", gap: 28 * u }}>
-        <div style={{ background: c.accent, color: c.onAccent, fontWeight: 800, fontSize: 52 * u, textAlign: "center", padding: `${22 * u}px ${24 * u}px`, borderRadius: 999, opacity: clamp(head * 2), transform: `translateY(${mix(-60, 0, head) * u}px)` }}>
+        <div style={{ alignSelf: "flex-start", width: "72%", boxSizing: "border-box", background: c.accent, color: c.onAccent, fontWeight: 800, fontSize: 48 * u, textAlign: "center", padding: `${22 * u}px ${24 * u}px`, borderRadius: 999, opacity: clamp(head * 2), transform: `translateY(${mix(-60, 0, head) * u}px)` }}>
           {s.heading}
         </div>
         <div style={{ background: c.text, border: `${6 * u}px solid ${c.accent2}`, borderRadius: b.radius.card * u, padding: `${40 * u}px ${44 * u}px`, boxShadow: `0 ${16 * u}px ${48 * u}px ${alpha(c.surface, 0.35)}`, opacity: clamp(card * 2), transform: `translateY(${mix(90, 0, card) * u}px)` }}>
@@ -137,7 +141,7 @@ const Lesson: React.FC<{ s: Section }> = ({ s }) => {
           })}
         </div>
       </div>
-      {FIDI_POSE[s.id] ? <Fidi pose={FIDI_POSE[s.id]} enterAt={s.start + 0.35} exitAt={s.exit} size={190} x={0.87} y={0.066} /> : null}
+      {FIDI_POSE[s.id] ? <Fidi pose={FIDI_POSE[s.id]} enterAt={s.start + 0.35} exitAt={s.exit} size={Math.min(215, 235 / POSE_ASPECT[FIDI_POSE[s.id]])} x={0.84} y={0.137} /> : null}
     </AbsoluteFill>
   );
 };
@@ -171,6 +175,7 @@ const Scene: React.FC = () => {
       <Background energy={energy} />
       <FidesLogo enterAt={0.1} x={0.05 + 136 / 1080} y={0.065} size={74} />
       <Intro s={intro} />
+      <Fidi pose="teach" enterAt={intro.start + 1.0} exitAt={intro.exit} size={430} x={0.78} y={0.82} />
       {K.sections.slice(1).map((s) => (
         <Lesson key={s.id} s={s} />
       ))}
